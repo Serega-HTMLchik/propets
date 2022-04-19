@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #7F7FD5;
+    height: 70px;
+}
+
+.nav{
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo{
+    width: 80%;
+    padding-top: 23.83px;
+    padding-left: 151px;
+}

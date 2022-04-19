@@ -1,0 +1,8 @@
+.loginPage {
+  width: 100%;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  height: 100vh;
+  position: absolute;
+  z-index: 10;
+}

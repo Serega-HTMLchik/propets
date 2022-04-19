@@ -1,0 +1,98 @@
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.form input {
+  width: 205px;
+  padding: 1px;
+  margin-top: 10px;
+  display: block;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.form label {
+  margin-top: 13px;
+  display: block;
+}
+
+.contForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 50%;
+}
+
+.btnCont {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.infotext {
+  width: 294px;
+  font-size: 10px;
+  color: #bababa;
+  padding: 13px;
+}
+
+.cancelBtn {
+  display: block;
+  width: 105px;
+  padding: 9px;
+  border-radius: 50px;
+  border: 1.5px solid #7f7fd5;
+  background-color: inherit;
+  color: #7f7fd5;
+  margin-left: 66px;
+  margin-right: 11px;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.cancelBtn:hover{
+    cursor: pointer;
+}
+
+.cancelBtn:active{
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.submitBtn {
+  display: block;
+  width: 148px;
+  padding: 9px;
+  background-color: #7f7fd5;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+}
+
+.submitBtn:active{
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
