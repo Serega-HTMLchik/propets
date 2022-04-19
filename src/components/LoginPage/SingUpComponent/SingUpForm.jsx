@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./SingUpForm.module.css";
+import Facebook from "../../Facebook/Facebook";
 
 export default function SingUpForm(props) {
   return (
@@ -14,10 +15,11 @@ export default function SingUpForm(props) {
               <label htmlFor="repass">Password: </label>
             </div>
             <div>
-              <input id="name" placeholder='Adrian Spirs'/>
-              <input id="mail" placeholder='srirs@gmail.com'/>
-              <input id="password" placeholder="********"/>
-              <input id="repass" placeholder="********"/>
+              <input id="name" placeholder='Adrian Spirs' />
+              <input id="mail" placeholder='srirs@gmail.com' />
+              <input id="password" placeholder="********" />
+              <input id="repass" placeholder="********" />
+              <Facebook />
             </div>
           </div>
         </form>
